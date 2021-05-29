@@ -1,7 +1,7 @@
 ﻿
 namespace Contact_Tracing_App
 {
-    partial class Form1
+    partial class Contact_Tracing_App
     {
         /// <summary>
         /// Required designer variable.
@@ -31,12 +31,12 @@ namespace Contact_Tracing_App
         {
             this.SuspendLayout();
             // 
-            // Form1
+            // Contact_Tracing_App
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "Form1";
+            this.Name = "Contact_Tracing_App";
             this.Text = "Contact Tracing App";
             this.ResumeLayout(false);
 

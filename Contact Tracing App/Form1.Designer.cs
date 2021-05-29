@@ -37,7 +37,9 @@ namespace Contact_Tracing_App
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Name = "Contact_Tracing_App";
+            this.ShowIcon = false;
             this.Text = "Contact Tracing App";
+            this.Load += new System.EventHandler(this.Contact_Tracing_App_Load);
             this.ResumeLayout(false);
 
         }

@@ -16,5 +16,10 @@ namespace Contact_Tracing_App
         {
             InitializeComponent();
         }
+
+        private void Contact_Tracing_App_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

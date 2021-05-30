@@ -32,6 +32,7 @@ namespace Contact_Tracing_App
             this.FirstName = new System.Windows.Forms.Label();
             this.MiddleName = new System.Windows.Forms.Label();
             this.LastName = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // FirstName
@@ -46,7 +47,7 @@ namespace Contact_Tracing_App
             // MiddleName
             // 
             this.MiddleName.AutoSize = true;
-            this.MiddleName.Location = new System.Drawing.Point(29, 44);
+            this.MiddleName.Location = new System.Drawing.Point(26, 44);
             this.MiddleName.Name = "MiddleName";
             this.MiddleName.Size = new System.Drawing.Size(69, 13);
             this.MiddleName.TabIndex = 1;
@@ -55,17 +56,25 @@ namespace Contact_Tracing_App
             // LastName
             // 
             this.LastName.AutoSize = true;
-            this.LastName.Location = new System.Drawing.Point(29, 79);
+            this.LastName.Location = new System.Drawing.Point(26, 73);
             this.LastName.Name = "LastName";
             this.LastName.Size = new System.Drawing.Size(58, 13);
             this.LastName.TabIndex = 2;
             this.LastName.Text = "Last Name";
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(116, 13);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 3;
             // 
             // Contact_Tracing_App
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.textBox1);
             this.Controls.Add(this.LastName);
             this.Controls.Add(this.MiddleName);
             this.Controls.Add(this.FirstName);
@@ -84,6 +93,7 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.Label FirstName;
         private System.Windows.Forms.Label MiddleName;
         private System.Windows.Forms.Label LastName;
+        private System.Windows.Forms.TextBox textBox1;
     }
 }
 

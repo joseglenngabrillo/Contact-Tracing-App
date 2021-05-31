@@ -38,6 +38,7 @@ namespace Contact_Tracing_App
             this.Age = new System.Windows.Forms.Label();
             this.Address = new System.Windows.Forms.Label();
             this.textBox4 = new System.Windows.Forms.TextBox();
+            this.textBox5 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // FirstName
@@ -113,11 +114,19 @@ namespace Contact_Tracing_App
             this.textBox4.Size = new System.Drawing.Size(43, 20);
             this.textBox4.TabIndex = 8;
             // 
+            // textBox5
+            // 
+            this.textBox5.Location = new System.Drawing.Point(116, 139);
+            this.textBox5.Name = "textBox5";
+            this.textBox5.Size = new System.Drawing.Size(177, 20);
+            this.textBox5.TabIndex = 9;
+            // 
             // Contact_Tracing_App
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(417, 450);
+            this.Controls.Add(this.textBox5);
             this.Controls.Add(this.textBox4);
             this.Controls.Add(this.Address);
             this.Controls.Add(this.Age);
@@ -148,6 +157,7 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.Label Age;
         private System.Windows.Forms.Label Address;
         private System.Windows.Forms.TextBox textBox4;
+        private System.Windows.Forms.TextBox textBox5;
     }
 }
 

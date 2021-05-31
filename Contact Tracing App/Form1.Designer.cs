@@ -35,6 +35,7 @@ namespace Contact_Tracing_App
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
+            this.Age = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // FirstName
@@ -68,28 +69,38 @@ namespace Contact_Tracing_App
             // 
             this.textBox1.Location = new System.Drawing.Point(116, 13);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.Size = new System.Drawing.Size(177, 20);
             this.textBox1.TabIndex = 3;
             // 
             // textBox2
             // 
             this.textBox2.Location = new System.Drawing.Point(116, 44);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.Size = new System.Drawing.Size(177, 20);
             this.textBox2.TabIndex = 4;
             // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(116, 73);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.Size = new System.Drawing.Size(177, 20);
             this.textBox3.TabIndex = 5;
+            // 
+            // Age
+            // 
+            this.Age.AutoSize = true;
+            this.Age.Location = new System.Drawing.Point(29, 108);
+            this.Age.Name = "Age";
+            this.Age.Size = new System.Drawing.Size(26, 13);
+            this.Age.TabIndex = 6;
+            this.Age.Text = "Age";
             // 
             // Contact_Tracing_App
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(417, 450);
+            this.Controls.Add(this.Age);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -114,6 +125,7 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.Label Age;
     }
 }
 

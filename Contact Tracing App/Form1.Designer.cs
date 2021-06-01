@@ -76,6 +76,7 @@ namespace Contact_Tracing_App
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(177, 20);
             this.textBox1.TabIndex = 3;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
@@ -103,7 +104,7 @@ namespace Contact_Tracing_App
             // Address
             // 
             this.Address.AutoSize = true;
-            this.Address.Location = new System.Drawing.Point(26, 178);
+            this.Address.Location = new System.Drawing.Point(26, 195);
             this.Address.Name = "Address";
             this.Address.Size = new System.Drawing.Size(45, 13);
             this.Address.TabIndex = 7;
@@ -111,14 +112,14 @@ namespace Contact_Tracing_App
             // 
             // textBox4
             // 
-            this.textBox4.Location = new System.Drawing.Point(116, 108);
+            this.textBox4.Location = new System.Drawing.Point(116, 101);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(43, 20);
             this.textBox4.TabIndex = 8;
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(116, 178);
+            this.textBox5.Location = new System.Drawing.Point(116, 195);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(177, 20);
@@ -127,7 +128,7 @@ namespace Contact_Tracing_App
             // PhoneNumber
             // 
             this.PhoneNumber.AutoSize = true;
-            this.PhoneNumber.Location = new System.Drawing.Point(29, 138);
+            this.PhoneNumber.Location = new System.Drawing.Point(26, 138);
             this.PhoneNumber.Name = "PhoneNumber";
             this.PhoneNumber.Size = new System.Drawing.Size(78, 13);
             this.PhoneNumber.TabIndex = 10;
@@ -135,7 +136,7 @@ namespace Contact_Tracing_App
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(113, 138);
+            this.textBox6.Location = new System.Drawing.Point(116, 138);
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(100, 20);
             this.textBox6.TabIndex = 11;

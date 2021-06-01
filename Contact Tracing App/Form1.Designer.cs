@@ -42,6 +42,7 @@ namespace Contact_Tracing_App
             this.PhoneNumber = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.Email = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // FirstName
@@ -151,11 +152,19 @@ namespace Contact_Tracing_App
             this.Email.TabIndex = 12;
             this.Email.Text = "Email";
             // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(116, 165);
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(100, 20);
+            this.textBox7.TabIndex = 13;
+            // 
             // Contact_Tracing_App
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(417, 450);
+            this.Controls.Add(this.textBox7);
             this.Controls.Add(this.Email);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.PhoneNumber);
@@ -194,6 +203,7 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.Label PhoneNumber;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label Email;
+        private System.Windows.Forms.TextBox textBox7;
     }
 }
 

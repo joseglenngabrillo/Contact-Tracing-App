@@ -92,7 +92,7 @@ namespace Contact_Tracing_App
             // Age
             // 
             this.Age.AutoSize = true;
-            this.Age.Location = new System.Drawing.Point(29, 108);
+            this.Age.Location = new System.Drawing.Point(26, 108);
             this.Age.Name = "Age";
             this.Age.Size = new System.Drawing.Size(26, 13);
             this.Age.TabIndex = 6;
@@ -101,7 +101,7 @@ namespace Contact_Tracing_App
             // Address
             // 
             this.Address.AutoSize = true;
-            this.Address.Location = new System.Drawing.Point(29, 139);
+            this.Address.Location = new System.Drawing.Point(26, 178);
             this.Address.Name = "Address";
             this.Address.Size = new System.Drawing.Size(45, 13);
             this.Address.TabIndex = 7;
@@ -116,7 +116,8 @@ namespace Contact_Tracing_App
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(116, 139);
+            this.textBox5.Location = new System.Drawing.Point(116, 178);
+            this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(177, 20);
             this.textBox5.TabIndex = 9;

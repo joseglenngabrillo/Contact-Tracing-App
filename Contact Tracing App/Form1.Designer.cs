@@ -43,12 +43,13 @@ namespace Contact_Tracing_App
             this.PhoneNumberBox6 = new System.Windows.Forms.TextBox();
             this.Email = new System.Windows.Forms.Label();
             this.EmailBox7 = new System.Windows.Forms.TextBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // FirstName
             // 
             this.FirstName.AutoSize = true;
-            this.FirstName.Location = new System.Drawing.Point(26, 13);
+            this.FirstName.Location = new System.Drawing.Point(38, 13);
             this.FirstName.Name = "FirstName";
             this.FirstName.Size = new System.Drawing.Size(57, 13);
             this.FirstName.TabIndex = 0;
@@ -66,7 +67,7 @@ namespace Contact_Tracing_App
             // LastName
             // 
             this.LastName.AutoSize = true;
-            this.LastName.Location = new System.Drawing.Point(26, 73);
+            this.LastName.Location = new System.Drawing.Point(37, 73);
             this.LastName.Name = "LastName";
             this.LastName.Size = new System.Drawing.Size(58, 13);
             this.LastName.TabIndex = 2;
@@ -74,7 +75,7 @@ namespace Contact_Tracing_App
             // 
             // FirstNameBox1
             // 
-            this.FirstNameBox1.Location = new System.Drawing.Point(116, 6);
+            this.FirstNameBox1.Location = new System.Drawing.Point(101, 6);
             this.FirstNameBox1.Name = "FirstNameBox1";
             this.FirstNameBox1.Size = new System.Drawing.Size(289, 20);
             this.FirstNameBox1.TabIndex = 3;
@@ -82,14 +83,14 @@ namespace Contact_Tracing_App
             // 
             // MiddleNameBox2
             // 
-            this.MiddleNameBox2.Location = new System.Drawing.Point(116, 37);
+            this.MiddleNameBox2.Location = new System.Drawing.Point(101, 37);
             this.MiddleNameBox2.Name = "MiddleNameBox2";
             this.MiddleNameBox2.Size = new System.Drawing.Size(289, 20);
             this.MiddleNameBox2.TabIndex = 4;
             // 
             // LastNameBox3
             // 
-            this.LastNameBox3.Location = new System.Drawing.Point(116, 66);
+            this.LastNameBox3.Location = new System.Drawing.Point(101, 66);
             this.LastNameBox3.Name = "LastNameBox3";
             this.LastNameBox3.Size = new System.Drawing.Size(289, 20);
             this.LastNameBox3.TabIndex = 5;
@@ -97,16 +98,17 @@ namespace Contact_Tracing_App
             // Age
             // 
             this.Age.AutoSize = true;
-            this.Age.Location = new System.Drawing.Point(26, 108);
+            this.Age.Location = new System.Drawing.Point(69, 108);
             this.Age.Name = "Age";
             this.Age.Size = new System.Drawing.Size(26, 13);
             this.Age.TabIndex = 6;
             this.Age.Text = "Age";
+            this.Age.Click += new System.EventHandler(this.Age_Click);
             // 
             // Address
             // 
             this.Address.AutoSize = true;
-            this.Address.Location = new System.Drawing.Point(26, 191);
+            this.Address.Location = new System.Drawing.Point(455, 76);
             this.Address.Name = "Address";
             this.Address.Size = new System.Drawing.Size(45, 13);
             this.Address.TabIndex = 7;
@@ -114,14 +116,14 @@ namespace Contact_Tracing_App
             // 
             // AgeBox4
             // 
-            this.AgeBox4.Location = new System.Drawing.Point(116, 101);
+            this.AgeBox4.Location = new System.Drawing.Point(101, 101);
             this.AgeBox4.Name = "AgeBox4";
             this.AgeBox4.Size = new System.Drawing.Size(43, 20);
             this.AgeBox4.TabIndex = 8;
             // 
             // AddressBox5
             // 
-            this.AddressBox5.Location = new System.Drawing.Point(116, 188);
+            this.AddressBox5.Location = new System.Drawing.Point(506, 73);
             this.AddressBox5.Multiline = true;
             this.AddressBox5.Name = "AddressBox5";
             this.AddressBox5.Size = new System.Drawing.Size(289, 88);
@@ -130,7 +132,7 @@ namespace Contact_Tracing_App
             // PhoneNumber
             // 
             this.PhoneNumber.AutoSize = true;
-            this.PhoneNumber.Location = new System.Drawing.Point(26, 138);
+            this.PhoneNumber.Location = new System.Drawing.Point(422, 13);
             this.PhoneNumber.Name = "PhoneNumber";
             this.PhoneNumber.Size = new System.Drawing.Size(78, 13);
             this.PhoneNumber.TabIndex = 10;
@@ -138,15 +140,16 @@ namespace Contact_Tracing_App
             // 
             // PhoneNumberBox6
             // 
-            this.PhoneNumberBox6.Location = new System.Drawing.Point(116, 131);
+            this.PhoneNumberBox6.Location = new System.Drawing.Point(506, 6);
             this.PhoneNumberBox6.Name = "PhoneNumberBox6";
             this.PhoneNumberBox6.Size = new System.Drawing.Size(289, 20);
             this.PhoneNumberBox6.TabIndex = 11;
+            this.PhoneNumberBox6.TextChanged += new System.EventHandler(this.PhoneNumberBox6_TextChanged);
             // 
             // Email
             // 
             this.Email.AutoSize = true;
-            this.Email.Location = new System.Drawing.Point(26, 167);
+            this.Email.Location = new System.Drawing.Point(468, 44);
             this.Email.Name = "Email";
             this.Email.Size = new System.Drawing.Size(32, 13);
             this.Email.TabIndex = 12;
@@ -154,16 +157,26 @@ namespace Contact_Tracing_App
             // 
             // EmailBox7
             // 
-            this.EmailBox7.Location = new System.Drawing.Point(116, 160);
+            this.EmailBox7.Location = new System.Drawing.Point(506, 37);
             this.EmailBox7.Name = "EmailBox7";
             this.EmailBox7.Size = new System.Drawing.Size(289, 20);
             this.EmailBox7.TabIndex = 13;
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(187, 186);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 23);
+            this.button1.TabIndex = 14;
+            this.button1.Text = "button1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // Contact_Tracing_App
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(417, 450);
+            this.ClientSize = new System.Drawing.Size(810, 498);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.EmailBox7);
             this.Controls.Add(this.Email);
             this.Controls.Add(this.PhoneNumberBox6);
@@ -204,6 +217,7 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.TextBox PhoneNumberBox6;
         private System.Windows.Forms.Label Email;
         private System.Windows.Forms.TextBox EmailBox7;
+        private System.Windows.Forms.Button button1;
     }
 }
 

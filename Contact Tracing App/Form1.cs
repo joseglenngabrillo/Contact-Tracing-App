@@ -26,5 +26,15 @@ namespace Contact_Tracing_App
         {
 
         }
+
+        private void PhoneNumberBox6_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Age_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

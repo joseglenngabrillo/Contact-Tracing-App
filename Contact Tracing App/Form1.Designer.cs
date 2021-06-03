@@ -32,7 +32,7 @@ namespace Contact_Tracing_App
             this.FirstName = new System.Windows.Forms.Label();
             this.MiddleName = new System.Windows.Forms.Label();
             this.LastName = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.FirstNameBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.Age = new System.Windows.Forms.Label();
@@ -72,26 +72,26 @@ namespace Contact_Tracing_App
             this.LastName.TabIndex = 2;
             this.LastName.Text = "Last Name";
             // 
-            // textBox1
+            // FirstNameBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(116, 13);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(177, 20);
-            this.textBox1.TabIndex = 3;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.FirstNameBox1.Location = new System.Drawing.Point(116, 6);
+            this.FirstNameBox1.Name = "FirstNameBox1";
+            this.FirstNameBox1.Size = new System.Drawing.Size(289, 20);
+            this.FirstNameBox1.TabIndex = 3;
+            this.FirstNameBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(116, 44);
+            this.textBox2.Location = new System.Drawing.Point(116, 37);
             this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(177, 20);
+            this.textBox2.Size = new System.Drawing.Size(289, 20);
             this.textBox2.TabIndex = 4;
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(116, 73);
+            this.textBox3.Location = new System.Drawing.Point(116, 66);
             this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(177, 20);
+            this.textBox3.Size = new System.Drawing.Size(289, 20);
             this.textBox3.TabIndex = 5;
             // 
             // Age
@@ -106,7 +106,7 @@ namespace Contact_Tracing_App
             // Address
             // 
             this.Address.AutoSize = true;
-            this.Address.Location = new System.Drawing.Point(26, 195);
+            this.Address.Location = new System.Drawing.Point(26, 191);
             this.Address.Name = "Address";
             this.Address.Size = new System.Drawing.Size(45, 13);
             this.Address.TabIndex = 7;
@@ -121,10 +121,10 @@ namespace Contact_Tracing_App
             // 
             // textBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(116, 195);
+            this.textBox5.Location = new System.Drawing.Point(116, 188);
             this.textBox5.Multiline = true;
             this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(177, 20);
+            this.textBox5.Size = new System.Drawing.Size(289, 88);
             this.textBox5.TabIndex = 9;
             // 
             // PhoneNumber
@@ -138,15 +138,15 @@ namespace Contact_Tracing_App
             // 
             // textBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(116, 138);
+            this.textBox6.Location = new System.Drawing.Point(116, 131);
             this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(100, 20);
+            this.textBox6.Size = new System.Drawing.Size(289, 20);
             this.textBox6.TabIndex = 11;
             // 
             // Email
             // 
             this.Email.AutoSize = true;
-            this.Email.Location = new System.Drawing.Point(29, 167);
+            this.Email.Location = new System.Drawing.Point(26, 167);
             this.Email.Name = "Email";
             this.Email.Size = new System.Drawing.Size(32, 13);
             this.Email.TabIndex = 12;
@@ -154,9 +154,9 @@ namespace Contact_Tracing_App
             // 
             // textBox7
             // 
-            this.textBox7.Location = new System.Drawing.Point(116, 165);
+            this.textBox7.Location = new System.Drawing.Point(116, 160);
             this.textBox7.Name = "textBox7";
-            this.textBox7.Size = new System.Drawing.Size(100, 20);
+            this.textBox7.Size = new System.Drawing.Size(289, 20);
             this.textBox7.TabIndex = 13;
             // 
             // Contact_Tracing_App
@@ -174,7 +174,7 @@ namespace Contact_Tracing_App
             this.Controls.Add(this.Age);
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.FirstNameBox1);
             this.Controls.Add(this.LastName);
             this.Controls.Add(this.MiddleName);
             this.Controls.Add(this.FirstName);
@@ -193,7 +193,7 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.Label FirstName;
         private System.Windows.Forms.Label MiddleName;
         private System.Windows.Forms.Label LastName;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox FirstNameBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label Age;

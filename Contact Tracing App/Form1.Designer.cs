@@ -48,6 +48,7 @@ namespace Contact_Tracing_App
             this.btnUpdate = new System.Windows.Forms.Button();
             this.btnSearch = new System.Windows.Forms.Button();
             this.btnDisplay = new System.Windows.Forms.Button();
+            this.SearchBox8 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // FirstName
@@ -170,7 +171,7 @@ namespace Contact_Tracing_App
             // 
             this.btnInsert.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnInsert.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnInsert.Location = new System.Drawing.Point(187, 186);
+            this.btnInsert.Location = new System.Drawing.Point(187, 167);
             this.btnInsert.Name = "btnInsert";
             this.btnInsert.Size = new System.Drawing.Size(75, 23);
             this.btnInsert.TabIndex = 14;
@@ -181,7 +182,7 @@ namespace Contact_Tracing_App
             // 
             this.btnDelete.BackColor = System.Drawing.Color.Coral;
             this.btnDelete.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnDelete.Location = new System.Drawing.Point(353, 185);
+            this.btnDelete.Location = new System.Drawing.Point(343, 167);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(75, 23);
             this.btnDelete.TabIndex = 15;
@@ -192,7 +193,7 @@ namespace Contact_Tracing_App
             // 
             this.btnUpdate.BackColor = System.Drawing.Color.LimeGreen;
             this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnUpdate.Location = new System.Drawing.Point(506, 184);
+            this.btnUpdate.Location = new System.Drawing.Point(506, 167);
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(75, 23);
             this.btnUpdate.TabIndex = 16;
@@ -202,7 +203,7 @@ namespace Contact_Tracing_App
             // btnSearch
             // 
             this.btnSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSearch.Location = new System.Drawing.Point(101, 236);
+            this.btnSearch.Location = new System.Drawing.Point(101, 208);
             this.btnSearch.Name = "btnSearch";
             this.btnSearch.Size = new System.Drawing.Size(75, 23);
             this.btnSearch.TabIndex = 17;
@@ -220,11 +221,19 @@ namespace Contact_Tracing_App
             this.btnDisplay.Text = "Display";
             this.btnDisplay.UseVisualStyleBackColor = false;
             // 
+            // SearchBox8
+            // 
+            this.SearchBox8.Location = new System.Drawing.Point(187, 211);
+            this.SearchBox8.Name = "SearchBox8";
+            this.SearchBox8.Size = new System.Drawing.Size(464, 20);
+            this.SearchBox8.TabIndex = 19;
+            // 
             // Contact_Tracing_App
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(810, 498);
+            this.Controls.Add(this.SearchBox8);
             this.Controls.Add(this.btnDisplay);
             this.Controls.Add(this.btnSearch);
             this.Controls.Add(this.btnUpdate);
@@ -275,6 +284,7 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button btnSearch;
         private System.Windows.Forms.Button btnDisplay;
+        private System.Windows.Forms.TextBox SearchBox8;
     }
 }
 

@@ -33,7 +33,7 @@ namespace Contact_Tracing_App
             this.MiddleName = new System.Windows.Forms.Label();
             this.LastName = new System.Windows.Forms.Label();
             this.FirstNameBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.MiddleNameBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.Age = new System.Windows.Forms.Label();
             this.Address = new System.Windows.Forms.Label();
@@ -80,12 +80,12 @@ namespace Contact_Tracing_App
             this.FirstNameBox1.TabIndex = 3;
             this.FirstNameBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBox2
+            // MiddleNameBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(116, 37);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(289, 20);
-            this.textBox2.TabIndex = 4;
+            this.MiddleNameBox2.Location = new System.Drawing.Point(116, 37);
+            this.MiddleNameBox2.Name = "MiddleNameBox2";
+            this.MiddleNameBox2.Size = new System.Drawing.Size(289, 20);
+            this.MiddleNameBox2.TabIndex = 4;
             // 
             // textBox3
             // 
@@ -173,7 +173,7 @@ namespace Contact_Tracing_App
             this.Controls.Add(this.Address);
             this.Controls.Add(this.Age);
             this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.MiddleNameBox2);
             this.Controls.Add(this.FirstNameBox1);
             this.Controls.Add(this.LastName);
             this.Controls.Add(this.MiddleName);
@@ -194,7 +194,7 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.Label MiddleName;
         private System.Windows.Forms.Label LastName;
         private System.Windows.Forms.TextBox FirstNameBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox MiddleNameBox2;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label Age;
         private System.Windows.Forms.Label Address;

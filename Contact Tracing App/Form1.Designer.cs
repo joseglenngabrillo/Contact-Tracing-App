@@ -40,7 +40,7 @@ namespace Contact_Tracing_App
             this.AgeBox4 = new System.Windows.Forms.TextBox();
             this.AddressBox5 = new System.Windows.Forms.TextBox();
             this.PhoneNumber = new System.Windows.Forms.Label();
-            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.PhoneNumberBox6 = new System.Windows.Forms.TextBox();
             this.Email = new System.Windows.Forms.Label();
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
@@ -136,12 +136,12 @@ namespace Contact_Tracing_App
             this.PhoneNumber.TabIndex = 10;
             this.PhoneNumber.Text = "Phone Number";
             // 
-            // textBox6
+            // PhoneNumberBox6
             // 
-            this.textBox6.Location = new System.Drawing.Point(116, 131);
-            this.textBox6.Name = "textBox6";
-            this.textBox6.Size = new System.Drawing.Size(289, 20);
-            this.textBox6.TabIndex = 11;
+            this.PhoneNumberBox6.Location = new System.Drawing.Point(116, 131);
+            this.PhoneNumberBox6.Name = "PhoneNumberBox6";
+            this.PhoneNumberBox6.Size = new System.Drawing.Size(289, 20);
+            this.PhoneNumberBox6.TabIndex = 11;
             // 
             // Email
             // 
@@ -166,7 +166,7 @@ namespace Contact_Tracing_App
             this.ClientSize = new System.Drawing.Size(417, 450);
             this.Controls.Add(this.textBox7);
             this.Controls.Add(this.Email);
-            this.Controls.Add(this.textBox6);
+            this.Controls.Add(this.PhoneNumberBox6);
             this.Controls.Add(this.PhoneNumber);
             this.Controls.Add(this.AddressBox5);
             this.Controls.Add(this.AgeBox4);
@@ -201,7 +201,7 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.TextBox AgeBox4;
         private System.Windows.Forms.TextBox AddressBox5;
         private System.Windows.Forms.Label PhoneNumber;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox PhoneNumberBox6;
         private System.Windows.Forms.Label Email;
         private System.Windows.Forms.TextBox textBox7;
     }

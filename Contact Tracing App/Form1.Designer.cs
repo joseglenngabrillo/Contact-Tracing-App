@@ -43,8 +43,8 @@ namespace Contact_Tracing_App
             this.PhoneNumberBox6 = new System.Windows.Forms.TextBox();
             this.Email = new System.Windows.Forms.Label();
             this.EmailBox7 = new System.Windows.Forms.TextBox();
-            this.Insert = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnInsert = new System.Windows.Forms.Button();
+            this.Delete = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
@@ -166,25 +166,26 @@ namespace Contact_Tracing_App
             this.EmailBox7.Size = new System.Drawing.Size(289, 20);
             this.EmailBox7.TabIndex = 13;
             // 
-            // Insert
+            // btnInsert
             // 
-            this.Insert.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.Insert.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Insert.Location = new System.Drawing.Point(187, 186);
-            this.Insert.Name = "Insert";
-            this.Insert.Size = new System.Drawing.Size(75, 23);
-            this.Insert.TabIndex = 14;
-            this.Insert.Text = "Insert";
-            this.Insert.UseVisualStyleBackColor = false;
+            this.btnInsert.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            this.btnInsert.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnInsert.Location = new System.Drawing.Point(187, 186);
+            this.btnInsert.Name = "btnInsert";
+            this.btnInsert.Size = new System.Drawing.Size(75, 23);
+            this.btnInsert.TabIndex = 14;
+            this.btnInsert.Text = "Insert";
+            this.btnInsert.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // Delete
             // 
-            this.button2.Location = new System.Drawing.Point(353, 185);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 15;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.Delete.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Delete.Location = new System.Drawing.Point(353, 185);
+            this.Delete.Name = "Delete";
+            this.Delete.Size = new System.Drawing.Size(75, 23);
+            this.Delete.TabIndex = 15;
+            this.Delete.Text = "Delete";
+            this.Delete.UseVisualStyleBackColor = true;
             // 
             // button3
             // 
@@ -221,8 +222,8 @@ namespace Contact_Tracing_App
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.Insert);
+            this.Controls.Add(this.Delete);
+            this.Controls.Add(this.btnInsert);
             this.Controls.Add(this.EmailBox7);
             this.Controls.Add(this.Email);
             this.Controls.Add(this.PhoneNumberBox6);
@@ -263,8 +264,8 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.TextBox PhoneNumberBox6;
         private System.Windows.Forms.Label Email;
         private System.Windows.Forms.TextBox EmailBox7;
-        private System.Windows.Forms.Button Insert;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnInsert;
+        private System.Windows.Forms.Button Delete;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;

@@ -38,7 +38,7 @@ namespace Contact_Tracing_App
             this.Age = new System.Windows.Forms.Label();
             this.Address = new System.Windows.Forms.Label();
             this.AgeBox4 = new System.Windows.Forms.TextBox();
-            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.AddressBox5 = new System.Windows.Forms.TextBox();
             this.PhoneNumber = new System.Windows.Forms.Label();
             this.textBox6 = new System.Windows.Forms.TextBox();
             this.Email = new System.Windows.Forms.Label();
@@ -119,13 +119,13 @@ namespace Contact_Tracing_App
             this.AgeBox4.Size = new System.Drawing.Size(43, 20);
             this.AgeBox4.TabIndex = 8;
             // 
-            // textBox5
+            // AddressBox5
             // 
-            this.textBox5.Location = new System.Drawing.Point(116, 188);
-            this.textBox5.Multiline = true;
-            this.textBox5.Name = "textBox5";
-            this.textBox5.Size = new System.Drawing.Size(289, 88);
-            this.textBox5.TabIndex = 9;
+            this.AddressBox5.Location = new System.Drawing.Point(116, 188);
+            this.AddressBox5.Multiline = true;
+            this.AddressBox5.Name = "AddressBox5";
+            this.AddressBox5.Size = new System.Drawing.Size(289, 88);
+            this.AddressBox5.TabIndex = 9;
             // 
             // PhoneNumber
             // 
@@ -168,7 +168,7 @@ namespace Contact_Tracing_App
             this.Controls.Add(this.Email);
             this.Controls.Add(this.textBox6);
             this.Controls.Add(this.PhoneNumber);
-            this.Controls.Add(this.textBox5);
+            this.Controls.Add(this.AddressBox5);
             this.Controls.Add(this.AgeBox4);
             this.Controls.Add(this.Address);
             this.Controls.Add(this.Age);
@@ -199,7 +199,7 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.Label Age;
         private System.Windows.Forms.Label Address;
         private System.Windows.Forms.TextBox AgeBox4;
-        private System.Windows.Forms.TextBox textBox5;
+        private System.Windows.Forms.TextBox AddressBox5;
         private System.Windows.Forms.Label PhoneNumber;
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label Email;

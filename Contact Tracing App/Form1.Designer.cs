@@ -45,7 +45,7 @@ namespace Contact_Tracing_App
             this.EmailBox7 = new System.Windows.Forms.TextBox();
             this.btnInsert = new System.Windows.Forms.Button();
             this.btnDelete = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
+            this.btnUpdate = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -188,14 +188,16 @@ namespace Contact_Tracing_App
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // btnUpdate
             // 
-            this.button3.Location = new System.Drawing.Point(506, 184);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 16;
-            this.button3.Text = "button3";
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnUpdate.BackColor = System.Drawing.Color.LimeGreen;
+            this.btnUpdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUpdate.Location = new System.Drawing.Point(506, 184);
+            this.btnUpdate.Name = "btnUpdate";
+            this.btnUpdate.Size = new System.Drawing.Size(75, 23);
+            this.btnUpdate.TabIndex = 16;
+            this.btnUpdate.Text = "Update";
+            this.btnUpdate.UseVisualStyleBackColor = false;
             // 
             // button4
             // 
@@ -222,7 +224,7 @@ namespace Contact_Tracing_App
             this.ClientSize = new System.Drawing.Size(810, 498);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
+            this.Controls.Add(this.btnUpdate);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnInsert);
             this.Controls.Add(this.EmailBox7);
@@ -267,7 +269,7 @@ namespace Contact_Tracing_App
         private System.Windows.Forms.TextBox EmailBox7;
         private System.Windows.Forms.Button btnInsert;
         private System.Windows.Forms.Button btnDelete;
-        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button btnUpdate;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
     }

@@ -39,7 +39,7 @@ namespace Contact_Tracing_App
         }
         private void btnDisplay_Click(object sender, EventArgs e)
         {
-         
+            SqlConnection connection = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename=C:\Users\heyve\Documents\Contact_Tracing_App.mdf;Integrated Security = True; Connect Timeout = 30");
         }
     }
 }

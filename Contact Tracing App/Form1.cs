@@ -43,7 +43,7 @@ namespace Contact_Tracing_App
             connection.Open();
             SqlCommand cmd = new SqlCommand("insert into [MyTable] (First Name,Middle  Name,Last Name,Age,Phone Number,Email,Address) values ('" + FirstNameBox1 + "','" + MiddleNameBox2.Text + "','" + LastNameBox3.Text + "','" + AgeBox4.Text + "','" + PhoneNumberBox6.Text + "','" + EmailBox7.Text + "','" + AddressBox5.Text + "')", connection);
             connection.Close();
-
+            MessageBox.Show("Display Successfully");
         }
     }
 }

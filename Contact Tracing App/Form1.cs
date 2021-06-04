@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
 
 namespace Contact_Tracing_App
 {
@@ -35,6 +36,10 @@ namespace Contact_Tracing_App
         private void Age_Click(object sender, EventArgs e)
         {
 
+        }
+        private void btnDisplay_Click(object sender, EventArgs e)
+        {
+         
         }
     }
 }

@@ -40,6 +40,10 @@ namespace Contact_Tracing_App
         private void btnDisplay_Click(object sender, EventArgs e)
         {
             SqlConnection connection = new SqlConnection(@"Data Source = (LocalDB)\MSSQLLocalDB; AttachDbFilename=C:\Users\heyve\Documents\Contact_Tracing_App.mdf;Integrated Security = True; Connect Timeout = 30");
+            connection.Open();
+            SqlCommand cmd = new SqlCommand("insert into [MyTable] (First Name,Middle  Name,Last Name,Age,Phone Number,Email,Address) values ('" + FirstNameBox1 + "','" + MiddleNameBox2.Text + "','" + LastNameBox3.Text + "','" + AgeBox4.Text + "','" + PhoneNumberBox6.Text + "','" + EmailBox7.Text + "','" + AddressBox5.Text + "')", connection);
+            connection.Close();
+
         }
     }
 }

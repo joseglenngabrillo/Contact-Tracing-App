@@ -195,6 +195,8 @@ namespace Contact_Tracing_App
             this.Controls.Add(this.MiddleName);
             this.Controls.Add(this.FirstName);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.MaximumSize = new System.Drawing.Size(444, 386);
+            this.MinimumSize = new System.Drawing.Size(444, 386);
             this.Name = "Contact_Tracing_App";
             this.ShowIcon = false;
             this.Text = "Contact Tracing App";

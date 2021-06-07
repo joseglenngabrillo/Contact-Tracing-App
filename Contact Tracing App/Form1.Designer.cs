@@ -199,6 +199,7 @@ namespace Contact_Tracing_App
             this.MinimumSize = new System.Drawing.Size(444, 386);
             this.Name = "Contact_Tracing_App";
             this.ShowIcon = false;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Contact Tracing App";
             this.Load += new System.EventHandler(this.Contact_Tracing_App_Load);
             this.ResumeLayout(false);

@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -42,8 +43,8 @@ namespace Contact_Tracing_App
         }
          
         private void displayInfo(String firstname, String middlename, String lastname, byte age, byte phonenumber, String email, String address)
-        { 
-            
+        {
+            StreamWriter outputfile = File.AppendText("output.txt");
         }
     }
 }

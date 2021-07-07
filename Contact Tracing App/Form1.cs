@@ -38,7 +38,12 @@ namespace Contact_Tracing_App
         }
         private void btnDisplay_Click(object sender, EventArgs e)
         {
-           
+
+        }
+         
+        private void displayInfo(String firstname, String middlename, String lastname, byte age, byte phonenumber, String email, String address)
+        { 
+            
         }
     }
 }

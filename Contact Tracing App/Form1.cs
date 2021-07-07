@@ -52,6 +52,7 @@ namespace Contact_Tracing_App
             outputfile.WriteLine(phonenumber.ToString());
             outputfile.WriteLine(email);
             outputfile.WriteLine(address);
+            outputfile.Close();
         }
     }
 }

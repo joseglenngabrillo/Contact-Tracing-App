@@ -39,7 +39,7 @@ namespace Contact_Tracing_App
         }
         private void btnDisplay_Click(object sender, EventArgs e)
         {
-
+            displayInfo(firstname: FirstNameBox1.Text, middlename: MiddleNameBox2.Text, lastname: LastNameBox3.Text, age: byte.Parse(AgeBox4.Text), phonenumber: byte.Parse(PhoneNumber.Text), email: EmailBox7.Text, address: AddressBox5.Text);
         }
          
         private void displayInfo(String firstname, String middlename, String lastname, byte age, byte phonenumber, String email, String address)

@@ -45,6 +45,13 @@ namespace Contact_Tracing_App
         private void displayInfo(String firstname, String middlename, String lastname, byte age, byte phonenumber, String email, String address)
         {
             StreamWriter outputfile = File.AppendText("output.txt");
+            outputfile.WriteLine(firstname);
+            outputfile.WriteLine(middlename);
+            outputfile.WriteLine(lastname);
+            outputfile.WriteLine(age.ToString());
+            outputfile.WriteLine(phonenumber.ToString());
+            outputfile.WriteLine(email);
+            outputfile.WriteLine(address);
         }
     }
 }
